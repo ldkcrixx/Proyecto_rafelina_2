@@ -1,7 +1,6 @@
 #contenido{
-    background-color: rgba(255,255,255,0.5);
-    padding: 10px;
-    margin: 9px;
+    padding: 0px;
+    margin: 0px;
     margin-top: 20px;
     border-radius: 10px;
 }
@@ -9,21 +8,20 @@
 #imagen{
     width: 190px;
     height:190px;
-    float: right;
     margin-left: 20px;
     border-radius: 10px;
-    border-style:solid;
-    border-color:rgba(0, 0, 50, 1);
     border-width: 3px;
+    position:relative;
 }
 
 header{
-    /*background: url('imgs/header.jpg');*/
-    background-color: #0ca5b0;
+    background-color: #065cba;
     background-size: cover;
     text-align: center;
-    margin: 9px;
+    margin: 0px;
     font-size: 30px;
+    padding: 4px;
+    border-radius: 10px;
 }
 
 body{
@@ -33,14 +31,13 @@ body{
 
 
 body{
-    /*background-color: #6b6b6b;*/
-    background: url('imgs/R.jpg');
+    background-color: #6f91b4;
     background-size: cover;
     margin: 20px;
 }
 
 h1{
-    font-family: 'Londrina Shadow', cursive;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -51,7 +48,7 @@ h2{
     text-align: center;
 }
 
-p{
+#parrafo{
     color: white;
     text-align: justify;
     font-size: 24px;
@@ -62,10 +59,11 @@ p{
     display: inline;
     font-size: 20px;
     margin: 10px;
+    width: 100%;
 }
 
 nav{
-    background-color:#f0823f;
+    background-color:#e37b16;
     padding: 13px;
 }
 
@@ -74,23 +72,20 @@ a{
     text-decoration: none;
 }
 
- /*.enlaces:hover{
-   color:#000000;
-    text-decoration: underline;
-    text-decoration-color: #0ca5b0;
-    font-weight: bold;
-    text-decoration-style:dotted ;
-    content: '';
+ .enlaces:hover{
+    color:#dea773;
+    text-decoration: unset;
+    /*content: '';
     height: 4px;
     width: 0;
     background: #2f00ff;
-    position: absolute;
+   
     left: 0;
     bottom: -5px;
-    transition: 0.5s;
-}*/
+    transition: 0.5s;*/
+}
 
-.enlaces ul li::after{
+/*.enlaces ul li::after{
     content: '';
     height: 4px;
     width: 0;
@@ -99,7 +94,7 @@ a{
     left: 0;
     bottom: -5px;
     transition: 0.5s;
-}
+}*/
 
 
 
@@ -113,28 +108,57 @@ a{
 }
 
 .carta{
-    width: 6.65cm;
-    height: 8.86cm;
+    width: 8cm;
+    height: 15cm;
     margin: 10px;
     transition: all 300ms;
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
 }
 
 .carta img{
-    width: 6.65cm;
-    height: 8.86cm;
+    width: 8cm;
+    height: 4.86cm;
+    border-radius: 8px;
 }
 
 .contenedor:hover .carta:not(:hover){
     opacity: 0.3;
 }
 
-#fotitos{
+#talleres{
     background-color: rgba(255,255,255,0.5);
-    padding: 10px;
-    margin: 9px;
+    padding: 2px;
+    margin: 4px;
     margin-top: 20px;
     border-radius: 10px;
 }
+
+#tittll{
+    color: #000000;
+}
+
+.boton{
+    padding: 10px;
+    background-color: #065cba;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    align-self: center;
+}
+
+.nombre_taller{
+    text-align: center;
+}
+
+.card_footer{
+    padding: 2px;
+    margin-bottom: 2px;
+    position: relative;
+    text-align: center;
+}
+
 
 
 
